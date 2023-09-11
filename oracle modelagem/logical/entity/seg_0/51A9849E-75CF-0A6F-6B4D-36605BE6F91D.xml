@@ -22,7 +22,6 @@
 <engineerTo>
 <item key="47FCAB1B-44E2-FCAE-A738-99516FDA6A19" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -99,4 +98,18 @@
 <ownDataTypeParameters>,11,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="21716840-2BB2-586F-88D7-B79F0388C7EA" name="CLIENTE PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 11:36:33 UTC</createdTime>
+<ownerDesignName>oracle modelagem</ownerDesignName>
+<engineerTo>
+<item key="47FCAB1B-44E2-FCAE-A738-99516FDA6A19" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7CA3A8DE-16CA-5FF9-3F19-8F86047DC77C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>
