@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="4907BE59-986B-EA2F-7108-15C74569688F" name="Compra">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:34:41 UTC</createdTime>
+<ownerDesignName>oracle modelagem</ownerDesignName>
+<engineerTo>
+<item key="47FCAB1B-44E2-FCAE-A738-99516FDA6A19" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID da compra" id="88294D2D-9EBF-1BB8-F5EE-186EF35EC1A8">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:34:53 UTC</createdTime>
+<ownerDesignName>oracle modelagem</ownerDesignName>
+<engineerTo>
+<item key="47FCAB1B-44E2-FCAE-A738-99516FDA6A19" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data e hora da compra" id="13830E82-2A48-57C9-B68D-18A945A7B409">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:35:09 UTC</createdTime>
+<ownerDesignName>oracle modelagem</ownerDesignName>
+<engineerTo>
+<item key="47FCAB1B-44E2-FCAE-A738-99516FDA6A19" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Total" id="24C73065-A126-920A-C215-10D99DC50024">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:36:42 UTC</createdTime>
+<ownerDesignName>oracle modelagem</ownerDesignName>
+<engineerTo>
+<item key="47FCAB1B-44E2-FCAE-A738-99516FDA6A19" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="71A94335-146E-85D5-BF79-E6B8399A403B" name="Compra PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:35:07 UTC</createdTime>
+<ownerDesignName>oracle modelagem</ownerDesignName>
+<engineerTo>
+<item key="47FCAB1B-44E2-FCAE-A738-99516FDA6A19" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>88294D2D-9EBF-1BB8-F5EE-186EF35EC1A8</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="99EBE94C-E834-54F3-B810-E029C76B5D36" name="Fornecedor">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:30:04 UTC</createdTime>
+<ownerDesignName>oracle modelagem</ownerDesignName>
+<engineerTo>
+<item key="47FCAB1B-44E2-FCAE-A738-99516FDA6A19" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID do fornecedor" id="E4247642-A167-2036-A023-E6BD0E236B3F">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:30:15 UTC</createdTime>
+<ownerDesignName>oracle modelagem</ownerDesignName>
+<engineerTo>
+<item key="47FCAB1B-44E2-FCAE-A738-99516FDA6A19" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nome" id="4F0E91BA-1C5E-B743-CB11-7A7A8941F6AD">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:30:39 UTC</createdTime>
+<ownerDesignName>oracle modelagem</ownerDesignName>
+<engineerTo>
+<item key="47FCAB1B-44E2-FCAE-A738-99516FDA6A19" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Endereço" id="CAC9F29A-ADD8-7048-7F5E-252ED0DAEC1E">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:32:05 UTC</createdTime>
+<ownerDesignName>oracle modelagem</ownerDesignName>
+<engineerTo>
+<item key="47FCAB1B-44E2-FCAE-A738-99516FDA6A19" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Numero de telefone" id="065747CB-856B-D560-1134-D667F55C7294">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:32:50 UTC</createdTime>
+<ownerDesignName>oracle modelagem</ownerDesignName>
+<engineerTo>
+<item key="47FCAB1B-44E2-FCAE-A738-99516FDA6A19" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EMAIL" id="8DCAA314-75BA-C0BD-8392-0858456EBFB2">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:33:26 UTC</createdTime>
+<ownerDesignName>oracle modelagem</ownerDesignName>
+<engineerTo>
+<item key="47FCAB1B-44E2-FCAE-A738-99516FDA6A19" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="7130E8E1-0A72-1988-87F4-DF60D6FE62E5" name="Fornecedor PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:30:28 UTC</createdTime>
+<ownerDesignName>oracle modelagem</ownerDesignName>
+<engineerTo>
+<item key="47FCAB1B-44E2-FCAE-A738-99516FDA6A19" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E4247642-A167-2036-A023-E6BD0E236B3F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

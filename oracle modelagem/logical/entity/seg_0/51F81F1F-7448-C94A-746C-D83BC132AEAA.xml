@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="51F81F1F-7448-C94A-746C-D83BC132AEAA" name="Produtos Eletrônico">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:18:49 UTC</createdTime>
+<ownerDesignName>oracle modelagem</ownerDesignName>
+<engineerTo>
+<item key="47FCAB1B-44E2-FCAE-A738-99516FDA6A19" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID do produto" id="00A480EF-B5B8-2034-9457-0BFCA1E4C903">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:19:38 UTC</createdTime>
+<ownerDesignName>oracle modelagem</ownerDesignName>
+<engineerTo>
+<item key="47FCAB1B-44E2-FCAE-A738-99516FDA6A19" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome" id="031B2F22-94F2-AC20-6AA2-D1AD32CAE7D6">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:20:01 UTC</createdTime>
+<ownerDesignName>oracle modelagem</ownerDesignName>
+<engineerTo>
+<item key="47FCAB1B-44E2-FCAE-A738-99516FDA6A19" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="marca" id="24F0280B-EB76-1E65-15F7-73FC5477B2D1">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:20:34 UTC</createdTime>
+<ownerDesignName>oracle modelagem</ownerDesignName>
+<engineerTo>
+<item key="47FCAB1B-44E2-FCAE-A738-99516FDA6A19" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Descrição" id="06664A0B-45CA-1243-1B97-53D3E9683934">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:20:51 UTC</createdTime>
+<ownerDesignName>oracle modelagem</ownerDesignName>
+<engineerTo>
+<item key="47FCAB1B-44E2-FCAE-A738-99516FDA6A19" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Preço" id="DCB5208D-7A4F-80FE-EE99-0FE8C65D5AAD">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:21:50 UTC</createdTime>
+<ownerDesignName>oracle modelagem</ownerDesignName>
+<engineerTo>
+<item key="47FCAB1B-44E2-FCAE-A738-99516FDA6A19" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Categoria" id="DE51E431-53F5-3088-D7CF-C7895B8F7CEB">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:22:34 UTC</createdTime>
+<ownerDesignName>oracle modelagem</ownerDesignName>
+<engineerTo>
+<item key="47FCAB1B-44E2-FCAE-A738-99516FDA6A19" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="78F7AE5A-8D89-0737-FDC5-C9C4977F995E" name="Produtos Eletrônico PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:19:49 UTC</createdTime>
+<ownerDesignName>oracle modelagem</ownerDesignName>
+<engineerTo>
+<item key="47FCAB1B-44E2-FCAE-A738-99516FDA6A19" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>00A480EF-B5B8-2034-9457-0BFCA1E4C903</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

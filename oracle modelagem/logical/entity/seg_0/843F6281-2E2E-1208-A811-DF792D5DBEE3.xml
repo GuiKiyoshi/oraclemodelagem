@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="843F6281-2E2E-1208-A811-DF792D5DBEE3" name="Funcionários">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:05:53 UTC</createdTime>
+<ownerDesignName>oracle modelagem</ownerDesignName>
+<engineerTo>
+<item key="47FCAB1B-44E2-FCAE-A738-99516FDA6A19" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_funcionario" id="1E3C46B4-1616-6337-16A8-D0A50E6A8BDE">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:07:01 UTC</createdTime>
+<ownerDesignName>oracle modelagem</ownerDesignName>
+<engineerTo>
+<item key="47FCAB1B-44E2-FCAE-A738-99516FDA6A19" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nome" id="979F6110-9369-3272-95F0-1B3B8F722C17">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:07:57 UTC</createdTime>
+<ownerDesignName>oracle modelagem</ownerDesignName>
+<engineerTo>
+<item key="47FCAB1B-44E2-FCAE-A738-99516FDA6A19" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cargo" id="48404E12-61FF-C713-72C0-53C3901E8C07">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:08:37 UTC</createdTime>
+<ownerDesignName>oracle modelagem</ownerDesignName>
+<engineerTo>
+<item key="47FCAB1B-44E2-FCAE-A738-99516FDA6A19" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Salário" id="0679B9BB-8797-0F5A-63E0-0E5543613753">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:09:15 UTC</createdTime>
+<ownerDesignName>oracle modelagem</ownerDesignName>
+<engineerTo>
+<item key="47FCAB1B-44E2-FCAE-A738-99516FDA6A19" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Data_de_contratação" id="987C28B1-EF7C-D317-ADCE-FEC58F8181A2">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:09:29 UTC</createdTime>
+<ownerDesignName>oracle modelagem</ownerDesignName>
+<engineerTo>
+<item key="47FCAB1B-44E2-FCAE-A738-99516FDA6A19" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AD352DF2-2EE3-BDE9-26A4-6185088D2065" name="Funcionários PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2023-09-11 12:07:47 UTC</createdTime>
+<ownerDesignName>oracle modelagem</ownerDesignName>
+<engineerTo>
+<item key="47FCAB1B-44E2-FCAE-A738-99516FDA6A19" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1E3C46B4-1616-6337-16A8-D0A50E6A8BDE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
